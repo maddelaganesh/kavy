@@ -1,0 +1,48 @@
+
+nav{
+    border-radius: 20px;
+background:black;
+margin: 1rem;
+}  
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+
+} 
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: aliceblue;
+    
+   
+    padding: 0.5rem 1rem;
+    display: block;
+}
+.kavya{
+    border: 2px solid black;
+    background: radial-gradient(circle, yellow , red, blue, lightblue,);
+    height: 600px;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+img{
+    align-content: center;
+    box-shadow: 20px;
+    padding: 100px;
+    width: 200px;
+transition: all ease-in-out 2s;
+filter: grayscale(100%);
+}
+img:hover{
+    transform: scale(1.2);
+    filter: grayscale(0%);
+}
+image:active{
+    
+}
